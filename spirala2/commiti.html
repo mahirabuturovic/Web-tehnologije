@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Zadatak</title>
+<link href="commiti.css" type="text/css" rel="stylesheet">
+<script src="Committabela.js"></script>
+<script type="text/javascript" src="commiti.js"></script>
+<script src="Validacija.js"></script>
+</head>
+<body>
+<div id="header">
+<div id="text">Pregled commita</div>
+<img id="logo" src="https://resourcepot.com/images/uploads/scholarship.png" style="width:50px;height:57px;" alt="slika">
+<div id="meni">
+<ul>
+     	
+     	<li><a href="zadaci.html">Pregled godina</a></li>
+		<li><a href="addGodina.html">Dodavanje godine</a></li>
+		<li><a href="studenti.html">Pregled studenata</a></li>
+		<li><a href="addStudent.html">Dodavanje studenata</a></li>
+		<li><a href="addVjezba.html">Dodavanje vjezbe/spirale</a></li>
+		<li><a href="addZadatak.html">Dodavanje zadatka</a></li>
+		<li><a href="commiti.html">Pregled commita</a></li>
+
+</ul>
+</div>
+</div>
+
+<div id="glavni">
+<p>Student Neko Nekic, 1234</p><br>
+<p>Naziv vjezbe/spirale: Vjezba 1</p><br>
+<p>Repozitorij:&ensp;&ensp;&ensp;<a href="#">Hyperlink</a></p>
+<br><br>
+<form onsubmit="return false" id="fKreiranje">
+<h3>Kreiranje tabele:</h3>
+<br>
+<label>Broj zadataka:</label>
+<input type="number" id="brZadataka" >
+<br><br>
+<input type="button" value="Kreiraj tabelu" onclick="return kreirajTabelu()">
+<br>
+</form>
+
+<form onsubmit="return false" id="fDodaj">
+<h3>Dodaj commit:</h3>
+<label>Broj zadatka:</label>
+<input type="number" id="brZadatka">
+<label>Url</label>
+<input type="text" id="url">
+<br>
+<input type="button" value="Dodaj" onclick="return dodaj(document.getElementById('brZadatka'),document.getElementById('url'))">
+</form>
+<div id="greske"></div>
+<div id="kreiranje">
+</div>
+</div>
+
+<div id="footer"><p>Web tehnologije 2018/19</p>
+</div>
+</body>
+</html>

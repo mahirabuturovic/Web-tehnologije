@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Zadatak</title>
+<link href="addZadatak.css" type="text/css" rel="stylesheet">
+<script src="Validacija.js"></script>
+<script type="text/javascript" src="addZadatak.js"></script>
+</head>
+<body>
+<div id="header">
+<div id="text">Dodavanje zadatka</div>
+<img id="logo" src="https://resourcepot.com/images/uploads/scholarship.png" style="width:50px;height:57px;" alt="slika">
+<div id="meni">
+<ul>
+     	<li><a href="zadaci.html">Pregled godina</a></li>
+		<li><a href="addGodina.html">Dodavanje godine</a></li>
+		<li><a href="studenti.html">Pregled studenata</a></li>
+		<li><a href="addStudent.html">Dodavanje studenata</a></li>
+		<li><a href="addVjezba.html">Dodavanje vjezbe/spirale</a></li>
+		<li><a href="addZadatak.html">Dodavanje zadatka</a></li>
+		<li><a href="commiti.html">Pregled commita</a></li>
+</ul>
+</div>
+</div>
+<div id="glavniSadrzaj">
+<form id="noviZadatak">
+<p >Novi zadatak</p><br><br>
+<div id="help">
+<label>Naziv zadatka</label><br>
+<input type="text" name="naziv" value="" required><br><br>
+<label>Tekst postavke *</label><br>
+<input type="file" name="file"><br><br>
+<label>Vjezbe/Spirale</label><br>
+<select name="vjezba">
+    <option value="Vjezba X">Vjezba X</option>
+    <option value="Vjezba Y">Vjezba Y</option>
+</select><br><br>
+<input type="button" value="Dodaj" name="dodaj" onclick="return validiraj()">
+</div>
+<div id="greskice"></div>
+</form>
+</div>
+<div id="footer"><p>Web tehnologije 2018/19</p>
+</div>
+</body>
+</html>
