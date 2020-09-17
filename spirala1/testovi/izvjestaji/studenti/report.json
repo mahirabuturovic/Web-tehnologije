@@ -1,0 +1,17 @@
+{
+  "tests" : [ {
+    "name" : "studenti.gspec",
+    "startedAt" : 1541289689313,
+    "endedAt" : 1541289759707,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 0,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 0
+    },
+    "testId" : "1-studenti.gspec",
+    "duration" : 70394,
+    "failed" : false
+  } ]
+}

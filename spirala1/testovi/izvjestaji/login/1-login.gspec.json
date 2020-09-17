@@ -1,0 +1,82 @@
+{
+  "testId" : "1-login.gspec",
+  "name" : "login.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  login.gspec --url http://localhost/login.html --size 1024x768 --htmlreport izvjestaji",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: login.gspec included tags: ",
+          "status" : "info",
+          "time" : 1541272522523,
+          "sections" : [ {
+            "name" : "Header",
+            "place" : {
+              "filePath" : "login.gspec",
+              "lineNumber" : 4
+            },
+            "objects" : [ {
+              "name" : "login",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "login.gspec",
+                  "lineNumber" : 6
+                },
+                "name" : "centered horizontally inside screen",
+                "highlight" : [ "login", "screen" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "login.gspec",
+                  "lineNumber" : 7
+                },
+                "name" : "centered vertically inside screen",
+                "highlight" : [ "login", "screen" ]
+              } ]
+            }, {
+              "name" : "form",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "login.gspec",
+                  "lineNumber" : 9
+                },
+                "name" : "centered horizontally inside screen",
+                "highlight" : [ "form", "screen" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "login.gspec",
+                  "lineNumber" : 10
+                },
+                "name" : "centered vertically inside screen",
+                "highlight" : [ "form", "screen" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "form" : {
+              "area" : [ 361, 272, 289, 142 ]
+            },
+            "screen" : {
+              "area" : [ 0, 0, 1012, 687 ]
+            },
+            "login" : {
+              "area" : [ 356, 272, 300, 142 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1541272520336,
+        "type" : "node"
+      } ],
+      "time" : 1541272497624,
+      "type" : "node"
+    } ]
+  }
+}

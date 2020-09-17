@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Zadatak</title>
+<link href="addStudent.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div id="header">
+<div id="text">Dodavanje studenata</div>
+<img id="logo" src="https://resourcepot.com/images/uploads/scholarship.png" style="width:50px;height:57px;" alt="slika">
+<div id="meni">
+<ul>
+     	<li><a href="zadaci.html">Pregled godina</a></li>
+		<li><a href="addGodina.html">Dodavanje godine</a></li>
+		<li><a href="studenti.html">Pregled studenata</a></li>
+		<li><a href="addStudent.html">Dodavanje studenata</a></li>
+		<li><a href="addVjezba.html">Dodavanje vjezbe/spirale</a></li>
+		<li><a href="addZadatak.html">Dodavanje zadatka</a></li>
+		<li><a href="commiti.html">Pregled commita</a></li>
+		<li><a href="login.html">Odjava</a></li>
+</ul>
+</div>
+</div>
+<div id="glavniSadrzaj">
+<form name="fPojedinacni">
+<p>Pojedinacni unos</p><br><br>
+<div id="help1">
+<label>Godina</label><br>
+<select name="godina">
+    <option value="2018/19">2018/19</option>
+</select><br><br>
+<label>Ime i prezime</label><br>
+<input type="text" value="type=text,name=ime *"><br><br>
+<label>Index</label><br>
+<input type="text" value="type=text,name=index *"><br><br>
+<label>Email</label><br>
+<input type="text" value="type=text,name=email *"><br><br>
+<input type="submit" name="submit" value="Unesi">
+</div>
+</form>
+
+<form name="fMasovni">
+<p>Masovni unos</p><br><br>
+<div id="help2">
+<label>Godina</label><br>
+<select name="godina">
+    <option value="2018/19">2018/19</option>
+</select><br><br>
+<label>CSV fajl</label><br>
+<input type="file" name="csv lista" ><br><br>
+<input type="submit" name="submit" value="Unesi">
+</div>
+</form>
+</div>
+<div id="footer"><p>Web tehnologije 2018/19</p>
+</div>
+</body>
+</html>

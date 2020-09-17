@@ -1,0 +1,106 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+
+#header{
+	padding:10px;
+	background-color:#FBF0F2;
+
+}
+
+body{
+
+	background-color:#FBD3D8;
+}
+#meni ul{
+
+}
+#meni li{
+	display:inline-block;
+	padding-right:20px;
+}
+#text{
+	float:right;
+	font-size:22px;
+	color:brown;
+	font-weight:bold;
+	margin-right:80px;
+	margin-top:10px;
+}
+#glavni p{
+	margin-left:60px;
+	font-size:17px;
+}
+#glavni{
+	
+	min-height:800px;
+	height:auto;
+
+}
+table,td,tr{
+	border-collapse:collapse;
+	border:2px solid #6666ff;
+	text-align:center;
+    width:50%;
+	padding:10px;
+    margin:0 auto;
+}
+table{
+	width:50%;
+}
+table tr:first-child{
+background-color: #DA5B84;
+	width:70%;
+}
+
+tr:nth-child(2){
+	background-color:white;
+}
+tr:nth-child(3){
+	background-color:white;
+}
+tr:nth-child(4){
+	background-color:white;
+}
+tr:nth-child(5){
+	background-color:white;
+}
+tr:nth-child(6){
+	background-color:white;
+}
+tr:nth-child(7){
+	background-color:white;
+}
+tr:nth-child(8){
+	background-color:white;
+}
+#footer{
+	font-size:40px;
+	float:left;
+	color:red;
+	clear:both;
+	width:100%;
+}
+#footer p{
+margin:0;
+position:relative;
+color:brown;
+	font-size:25px;
+	background-color:#FBF0F2;
+}
+@media screen and (max-width: 600px) {
+  #glavniSadrzaj{
+	width:100%;
+}
+ #text{
+		 float:left;
+		 position:absolute;
+		 bottom:0;
+		 top:180px;
+	 }
+	 #header{
+	 height:200px;
+	 }
+}

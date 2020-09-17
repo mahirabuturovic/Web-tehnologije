@@ -1,0 +1,27 @@
+@objects
+	header	#header
+	text	#text
+	meni	#meni
+	logo	#logo
+	footer	#footer
+	footerP	#footer p
+
+
+= Main section =
+
+	@on desktop
+		header:
+			contains logo, text, meni
+		text:
+			inside header 
+		logo:
+			inside header 0px top left
+		footerP:
+			text is: "Web tehnologije 2018/19"
+        footer:
+                inside screen 0 to 1px bottom 
+
+	@on mobile
+		text:
+			below meni
+			inside header
