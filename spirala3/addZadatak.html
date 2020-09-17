@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Zadatak</title>
+<link href="addZadatak.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="addZadatak.js"></script>
+<script type="text/javascript" src="index.js"></script>
+
+</head>
+<body>
+<div id="header">
+<div id="text">Dodavanje zadatka</div>
+<img id="logo" src="https://resourcepot.com/images/uploads/scholarship.png" style="width:50px;height:57px;" alt="slika">
+<div id="meni">
+<ul>
+     	<li><a href="zadaci.html">Pregled godina</a></li>
+		<li><a href="addGodina.html">Dodavanje godine</a></li>
+		<li><a href="studenti.html">Pregled studenata</a></li>
+		<li><a href="addStudent.html">Dodavanje studenata</a></li>
+		<li><a href="addVjezba.html">Dodavanje vjezbe/spirale</a></li>
+		<li><a href="addZadatak.html">Dodavanje zadatka</a></li>
+		<li><a href="commiti.html">Pregled commita</a></li>
+</ul>
+</div>
+</div>
+<div id="glavniSadrzaj">
+<form id="noviZadatak"action="http://localhost:8080/addZadatak"  method="POST" enctype="multipart/form-data">
+<p >Novi zadatak</p><br><br>
+<div id="help">
+<label>Naziv zadatka</label><br>
+<input type="text" name="naziv" value="" required><br><br>
+<label>Tekst postavke *</label><br>
+<input type="file" name="postavka"><br><br>
+<input type="submit" value="Dodaj" name="dodaj">
+</div>
+<div id="greskice"></div>
+</form>
+</div>
+<div id="footer"><p>Web tehnologije 2018/19</p>
+</div>
+</body>
+</html>
