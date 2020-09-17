@@ -1,0 +1,177 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+
+#header{
+	padding:10px;
+	background-color:#FBF0F2;
+
+}
+
+html,body{
+  height: 100%;
+    min-height: 100%;
+	position:relative;
+	background-color:white;
+}
+#meni ul{
+}
+#meni li{
+	display:inline-block;
+	padding-right:20px;
+}
+#text_godina{
+text-align:center;
+margin-top:50px;
+}
+#text_student{
+text-align:center;
+margin-top:50px;
+}
+#text{
+	float:right;
+	font-size:22px;
+	color:brown;
+	font-weight:bold;
+	margin-right:10px;
+	margin-top:10px;
+}
+
+#slika{
+	width:50px;
+	margin:0;
+}
+.cetvrtina #godina{
+        background-color: #DA5B84;
+		width:25%;
+		float:left;
+		height:auto;
+		position:relative;
+	    min-height:800px;
+}
+.cetvrtina #imena{
+		background-color: #DA5B84;
+		width:25%;
+		float:left;
+		position:relative;
+	    height:auto;
+	    min-height:800px;
+}
+#godina li:nth-child(1){
+  background-color:#DCDCDC;
+}
+#imena li:nth-child(1){
+  background-color:#DCDCDC;
+}
+form{
+	text-align:center;
+}
+input[type="text"]{
+	width:40%;
+}
+input[type="submit"]{
+     width:40%;
+}
+#godina ul{height:370px; width:60%; list-style-type:none; border:1px solid black; margin:0 auto; background-color:white; line-height:20px;margin-top:20px; }
+#godina ul{overflow:hidden; overflow-y:scroll;padding:0;}
+#imena ul{height:280px; width:60%; list-style-type:none; border:1px solid black; margin:0 auto; background-color:white;line-height:20px;margin-top:30px; }
+#imena ul{overflow:hidden; overflow-y:scroll;padding:0;}
+
+
+.folder{
+    background-color: pink;
+    margin:0 auto;
+	    margin-top:12px;
+    padding:20px;
+     align-items: center;
+	 width:60%;
+	 height:auto;
+	 min-height:170px;
+	 position:relative;
+    box-shadow: 3px 3px 2px gray;
+	max-height: inherit;
+	overflow:hidden;
+}
+input[type="submit"]{
+	width:auto;
+}
+p{
+	position:absolute;
+	top:0;
+	left:0;
+	padding:5px;
+	color:black;
+}
+.item{
+background-color: white;
+  color: red;
+  padding: 20px;
+  font-size: 80%;
+  border:2px solid brown;
+  text-align:center;
+  white-space: nowrap;
+  float:left;
+  margin:10px;
+  max-height: inherit;
+}
+
+.polovina{
+    background-color: #DA5B84;
+		width:50%;
+		float:left;
+		height:auto;
+	    min-height:800px;
+		position:relative;
+		max-height: inherit;
+	
+}
+.cetvrtina{
+
+}
+
+@media screen and (max-width: 600px) {
+	
+
+	.polovina{
+		float:left;
+		clear:left;
+		width:100%;
+		
+	}
+	.cetvrtina #imena{
+		float:left;
+		clear:left;
+		width:100%;
+	}	
+	.cetvrtina #godina{
+		float:left;
+		clear:left;
+		width:100%;
+	}
+	
+	 #text{
+		 float:left;
+		 position:absolute;
+		 bottom:0;
+		 top:180px;
+	 }
+	 #header{
+	 height:200px;
+	 }
+}
+
+#footer{
+	font-size:40px;
+	float:left;
+	width:100%;
+}
+#footer p{
+margin:0;
+position:relative;
+color:brown;
+width:100%;
+	font-size:25px;
+	background-color:#FBF0F2;
+}

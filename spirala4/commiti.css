@@ -1,0 +1,109 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+
+#header{
+	padding:10px;
+	background-color:#FBF0F2;
+
+}
+
+body{
+
+	background-color:#FBD3D8;
+}
+#meni ul{
+
+}
+#meni li{
+	display:inline-block;
+	padding-right:20px;
+}
+#text{
+	float:right;
+	font-size:28px;
+	color:brown;
+	font-weight:bold;
+	margin-right:80px;
+	margin-top:10px;
+}
+
+#slika{
+	width:50px;
+	margin:0;
+}
+	#footer{
+	font-size:40px;
+	float:left;
+	color:red;
+	width:100%;
+	clear:both;
+
+}
+#footer p{
+	padding:10px;
+position:relative;
+top:20px;
+color:red;
+	font-size:25px;
+	background-color:#F5DEB3;
+}
+#glavni{
+	margin-left:60px;
+	margin-top:50px;
+	font-size:17px;
+}
+table,td,tr{
+	border-collapse:collapse;
+	border:2px solid #6666ff;
+	text-align:center;
+	padding:10px;
+	margin:0 auto;
+}
+table{
+	width:50%;
+}
+table tr:first-child{
+background-color: #DA5B84;
+	width:70%;
+	color:p;
+}
+
+tr:nth-child(2){
+	background-color:white;
+}
+tr:nth-child(3){
+	background-color:white;
+}
+tr:nth-child(4){
+	background-color:white;
+}
+tr:nth-child(5){
+	background-color:white;
+}
+tr:nth-child(6){
+	background-color:white;
+}
+tr:nth-child(7){
+	background-color:white;
+}
+tr:nth-child(8){
+	background-color:white;
+}
+#footer{
+	font-size:40px;
+	float:left;
+	color:red;
+	clear:both;
+	width:100%;
+}
+#footer p{
+margin:0;
+position:relative;
+color:brown;
+	font-size:25px;
+	background-color:#FBF0F2;
+}
+

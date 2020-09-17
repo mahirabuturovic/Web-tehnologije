@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Zadatak</title>
+<link href="addStudent.css" type="text/css" rel="stylesheet">
+<script src="ajaxAddStudent.js"></script>
+<script type="text/javascript" src="index.js"></script>
+<script type="text/javascript" src="addStudent.js"></script>
+<script type="text/javascript" src="BitBucket.js"></script>
+
+</head>
+<body onload="pomozi();">
+<div id="header">
+<div id="text">Dodavanje studenata</div>
+<img id="logo" src="https://resourcepot.com/images/uploads/scholarship.png" style="width:50px;height:57px;" alt="slika">
+<div id="meni">
+<ul>
+     	<li><a href="zadaci.html">Pregled godina</a></li>
+		<li><a href="addGodina.html">Dodavanje godine</a></li>
+		<li><a href="studenti.html">Pregled studenata</a></li>
+		<li><a href="addStudent.html">Dodavanje studenata</a></li>
+		<li><a href="addVjezba.html">Dodavanje vjezbe/spirale</a></li>
+		<li><a href="addZadatak.html">Dodavanje zadatka</a></li>
+		<li><a href="commiti.html">Pregled commita</a></li>
+</ul>
+</div>
+</div>
+<div id="glavniSadrzaj">
+
+<form name="fMasovni">
+<p>Masovni unos</p><br><br>
+<div id="help2">
+<label>Godina</label><br>
+<select name="sGodina">
+</select><br><br>
+<label>Key</label><br>
+<input type="text" name="key" ><br><br>
+<label>Secret</label><br>
+<input type="text" name="secret" ><br><br>
+<input type="button" value="Ucitaj" onclick="ucitavanje()"><br><br>
+<input type="button" name="dodaj" value="Dodaj" disabled/><br><br>
+</div>
+</form>
+</div>
+<div id="footer"><p>Web tehnologije 2018/19</p>
+</div>
+</body>
+</html>

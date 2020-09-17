@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<title>Zadatak</title>
+<link href="addGodina.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+<div id="header">
+<div id="text">Dodavanje godine</div>
+<img id="logo" src="https://resourcepot.com/images/uploads/scholarship.png" style="width:50px;height:57px;" alt="slika">
+<div id="meni">
+<ul>
+     	<li><a href="zadaci.html">Pregled godina</a></li>
+		<li><a href="addGodina.html">Dodavanje godine</a></li>
+		<li><a href="studenti.html">Pregled studenata</a></li>
+		<li><a href="addStudent.html">Dodavanje studenata</a></li>
+		<li><a href="addVjezba.html">Dodavanje vjezbe/spirale</a></li>
+		<li><a href="addZadatak.html">Dodavanje zadatka</a></li>
+		<li><a href="commiti.html">Pregled commita</a></li>
+
+</ul>
+</div>
+</div>
+<div id="side">
+<form action="http://localhost:8080/addGodina" method="POST" >
+<p>Unos godine:</p><br><br>
+<div id="unos_godine">
+<div>Naziv godine</div>
+<input type="text" value="" name="naziv" required>
+<br><br>
+<div>Nazivi repozitorija vjezbe</div>
+<input type="text" value="" name="nazivRepVje" required>
+<br><br>
+<div>Nazivi repozitorija spirale</div>
+<input type="text" value="" name="nazivRepSpi" required><br><br>
+<input type="button" value="Ponisti" name="ponisti">
+<input type="submit" value="Unesi" name="unesi">
+<br>
+</form>
+<div id="greske"></div>
+</div>
+
+</div>
+
+<div id="glavniSadrzaj">
+<div class="godina">
+<p>2015/16</p><br>
+<p><b>Broj studenata:</b>90</p>
+<p><b>Broj vjezbi:</b>10</p>
+<p><b>Broj spirala:</b>4</p>
+</div>
+<div class="godina">
+<p>2016/17</p><br>
+<p><b>Broj studenata:</b>90</p>
+<p><b>Broj vjezbi:</b>10</p>
+<p><b>Broj spirala:</b>4</p>
+</div>
+<div class="godina"></div>
+<div class="godina"></div>
+</div>
+<div id="footer"><p>Web tehnologije 2018/19</p>
+</div>
+</body>
+</html>

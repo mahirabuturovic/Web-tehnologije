@@ -1,0 +1,133 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+
+#header{
+	padding:10px;
+    background-color:#FBF0F2;
+}
+
+body{
+	margin:0;
+	background-color:#FBD3D8;
+
+
+}
+input[type="text"]{
+	width:150px;
+}
+#slika{
+	width:50px;
+	margin:0;
+}
+#meni ul{
+
+}
+#meni li{
+	display:inline-block;
+	padding-right:20px;
+}
+#text{
+	float:right;
+	font-size:22px;
+	color:brown;
+	font-weight:bold;
+	margin-right:80px;
+	margin-top:10px;
+}
+#glavniSadrzaj{
+	width:65%;
+	display: grid;
+	position:relative;
+    grid-template-columns:repeat(2,1fr);
+    grid-gap: 15px;
+	justify-content: center;
+    align-items: center;
+	overflow:hidden;
+}
+
+#side{
+	overflow:hidden;
+    width:35%;
+	margin:0 auto;
+	height:auto;
+    min-height:800px;
+	float:left;
+	clear:right;
+	background-color:#DA5B84;
+  
+}
+#unos_godine{
+	
+	width:173px;
+	margin:0 auto;
+}
+input[name="unesi"]{
+	float:right;
+	position:relative;
+	padding-left:10px;
+	padding-right:10px;
+	width:auto;
+
+}
+input[name="ponisti"]{
+	float:left;
+	position:relative;
+	padding-left:10px;
+	padding-right:10px;
+	width:auto;
+}
+#side p{
+	text-align:center;
+	margin-top:50px;
+	font-size:20px;
+}
+#footer{
+	font-size:40px;
+	float:left;
+	clear:both;
+	width:100%;
+}
+#footer p{
+margin:0;
+padding:5px;
+position:relative;
+color:brown;
+font-size:25px;
+background-color:#FBF0F2;
+}
+.godina{
+	background-color:white;
+    padding:25px;
+	height:200px;
+	float:left;
+  overflow:hidden;
+  text-align:center;
+}
+@media screen and (max-width: 600px) {
+
+  #side{
+	  float:left;
+	  width:100%;
+  }
+  #glavniSadrzaj{
+	float:left;
+	clear:left;
+	width:100%;
+}
+  #text{
+		 float:left;
+		 position:absolute;
+		 bottom:0;
+		 top:180px;
+	 }
+	 #header{
+	 height:200px;
+	 }
+
+}
+
+
+

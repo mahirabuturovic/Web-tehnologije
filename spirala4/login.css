@@ -1,0 +1,36 @@
+body{
+	background-color:pink;
+}
+#container{
+
+}
+form {
+  text-align:left;
+  background-color: #DA5B84;
+padding:20px;
+
+}
+input[type="text"]{
+	  width:184px;
+}
+input[type="password"]{
+	  width:184px;
+}
+#login{
+position:absolute;
+display: flex;
+justify-content: center;
+align-items: center;﻿
+width:300px;
+top: 50%;
+width:300px;
+left: 50%;
+ transform: translate(-50%,-50%);
+}
+
+input[type="button"]{
+
+	margin-left:120px;
+	padding-left:15px;
+	padding-right:15px;
+}
